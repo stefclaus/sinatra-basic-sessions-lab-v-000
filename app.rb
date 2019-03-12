@@ -17,8 +17,5 @@ class App < Sinatra::Base
     erb :checkout
   end
 
-  post '/checkout' do
-  end
-
 
 end
