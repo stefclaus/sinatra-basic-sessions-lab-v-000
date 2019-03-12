@@ -17,8 +17,4 @@ class App < Sinatra::Base
     erb :checkout
   end
 
-  @item = params[:item]
-        session[:item] = @item
-        erb :checkout
-
 end
